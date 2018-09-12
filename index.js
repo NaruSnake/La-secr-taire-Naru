@@ -60,7 +60,7 @@ client.on("guildMemberAdd", member => {
 });
 
 client.on("guildMemberRemove", member => {
-    memeber.guild.channels.find("name", "bienvenue").send(`${member} c'est ça casse toi`)
+    member.guild.channels.find("name", "bienvenue").send(`${member} c'est ça casse toi`)
 });
 
 
