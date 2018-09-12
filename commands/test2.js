@@ -1,7 +1,6 @@
 //commande say//
 const Discord = require("discord.js");
 const client = new Discord.Client();
-const config = require("./config.json");
 const fs = require("fs");
 
 exports.run = (client, message, args) => {
