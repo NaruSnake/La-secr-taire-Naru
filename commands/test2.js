@@ -2,11 +2,11 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
 const fs = require("fs");
+const Testeurs_Bots
 
 exports.run = (client, message, args) => {
     let text = args.slice(0).join(" ");
-    var Testeurs_Bots
-   (message.member.roles(Testeurs_Bots),
+  if  (message.member.roles(Testeurs_Bots),
         message.delete(),
          message.channel.send(text).catch(console.error));
    if (message.delete(),
