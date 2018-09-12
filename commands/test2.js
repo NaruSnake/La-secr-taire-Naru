@@ -6,7 +6,7 @@ const fs = require("fs");
 exports.run = (client, message, args) => {
     let text = args.slice(0).join(" ");
     var Testeurs_Bots
-   if (message.member.roles(Testeurs_Bots),
+   (message.member.roles(Testeurs_Bots),
         message.delete(),
          message.channel.send(text).catch(console.error));
    if (message.delete(),
