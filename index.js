@@ -53,6 +53,15 @@ client.on("message", (message) => {
 
     });
 
+//bienvenue et départ//
+
+client.on("guildMemberAdd", member => {
+    member.guild.channels.find("name", "bienvenue").send(`${member} putain pas lui`)
+});
+
+client.on("guildMemberRemove", member => {
+    memeber.guild.channels.find("name", "bienvenue").send(`${member} c'est ça casse toi`)
+});
 
 
 client.login(token);
