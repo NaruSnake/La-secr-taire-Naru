@@ -6,7 +6,7 @@ const fs = require("fs");
 
 exports.run = (client, message, args) => {
     let text = args.slice(0).join(" ");
-  iif (!message.member.roles.some(r=>["role_name"].includes(r.name)) ) 
+  if (!message.member.roles.some(r=>["role_name"].includes(r.name)) ) 
   return;
         (message.delete(),
          message.channel.send(text).catch(console.error));
