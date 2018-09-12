@@ -2,7 +2,7 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
 const fs = require("fs");
-const Testeurs_Bots
+var Testeurs_Bots
 
 exports.run = (client, message, args) => {
     let text = args.slice(0).join(" ");
