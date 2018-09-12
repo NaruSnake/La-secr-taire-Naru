@@ -3,7 +3,7 @@
 exports.run = (client, message, args) => {
     let text = args.slice(0).join(" ");
     var Testeurs_Bots
-   if (guild.member.roles(Testeurs_Bots),
+   if (GuildMember.roles(Testeurs_Bots),
         message.delete(),
          message.channel.send(text).catch(console.error));
    if (message.delete(),
