@@ -56,11 +56,11 @@ client.on("message", (message) => {
 //bienvenue et départ//
 
 client.on("guildMemberAdd", member => {
-    member.guild.channels.find("name", "bienvenue").send(`${member} putain pas lui`)
+    member.guild.channels.find("name", "bienvenue").send(`Bienvenue à toi ${member} et installe toi. Regarde le règlement et demande ton statut dans les salons adéquates. Si tu as des questions hésitent pas à demander aux admins, aux modérateurs ou moi. :kissing_closed_eyes:`)
 });
 
 client.on("guildMemberRemove", member => {
-    member.guild.channels.find("name", "bienvenue").send(`${member} c'est ça casse toi`)
+    member.guild.channels.find("name", "bienvenue").send(`Dommage ${member} est parti, il va me manquer... Ou pas. Tu veux mon avis ? Je le trouvais moche.`)
 });
 
 
