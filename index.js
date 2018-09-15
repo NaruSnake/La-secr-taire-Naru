@@ -47,6 +47,8 @@ client.on("message", (message) => {
         console.log
 
         } catch (err) {
+            message.delete();
+            message.channel.send("Abruti fait une commande qui existe")
             console.error(err);
             console.log
         }
