@@ -8,7 +8,7 @@ client.on("ready", () => {
 
 	var memberCount = client.users.size;
 	var serverCount = client.guilds.size;
-		client.user.setGame("préparer des trucs");
+		client.user.setGame("TERA");
 		client.user.setStatus("online");
 	console.log("Je suis Online");
 	console.log("Utilisateurs: " + memberCount + "\nServeurs: " + serverCount);
