@@ -8,7 +8,7 @@ client.on("ready", () => {
 
 	var memberCount = client.users.size;
 	var serverCount = client.guilds.size;
-		client.user.setGame("la vie de Naru");
+		client.user.setGame("détruire la vie de Naru");
 		client.user.setStatus("online");
 	console.log("Je suis Online");
 	console.log("Utilisateurs: " + memberCount + "\nServeurs: " + serverCount);
