@@ -3,9 +3,9 @@ exports.run = (client, message, args) => {
     const embed = new Discord.RichEmbed()
     .setColor(0x00FE00)
     .setDescription(" Le lien de la chaîne: https://www.twitch.tv/narusnake")
-    .setImage("https://i.pinimg.com/originals/77/5e/10/775e10e62bc3db584bbdadebee1b4c0d.png")
+    .setImage("https://i.pinimg.com/originals/4a/77/17/4a77171d74ec87199022550d3f72546f.png")
     message.delete();
-    message.channel.send("@everyone Ce soir c'est le jeux au pif on débute le stream vers 20h30").catch(console.error);
+    message.channel.send("@everyone Ce soir on chasse les insectes avec Deafus et Naru en Coop").catch(console.error);
     message.channel.send({embed}).catch(console.error);
     console.log
 }
